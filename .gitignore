@@ -1,0 +1,32 @@
+# --- Python & Ambientes Virtuais ---
+venv/
+.venv/
+env/
+bin/
+lib/
+share/
+include/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# --- Dados e Performance (Arquivos Gigantes) ---
+# Não subimos o 1 milhão de linhas, o usuário gera via script
+*.csv
+*.parquet
+*.json
+*.sqlite
+
+# --- Docker & Logs ---
+.docker/
+logs/
+*.log
+
+# --- IDEs & SO ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Configurações Sensíveis ---
+.env
